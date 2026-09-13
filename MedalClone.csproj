@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>MedalClone</AssemblyName>
+    <RootNamespace>MedalClone</RootNamespace>
+    <!-- 単一exeにまとめたい場合は以下を有効化してpublishする -->
+    <!-- <PublishSingleFile>true</PublishSingleFile> -->
+    <!-- <SelfContained>true</SelfContained> -->
+    <!-- <RuntimeIdentifier>win-x64</RuntimeIdentifier> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- WASAPIループバック録音(仮想オーディオデバイス不要でシステム音声を録るため)に使用 -->
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+</Project>
