@@ -1,3 +1,6 @@
+# MedalCloneは他プロジェクトへの開発集中のため、開発が終了しました。
+# Development of MedalClone has been discontinued so that we can focus our efforts on other projects.
+
 # MedalClone
 
 Medal.tv や GeForce Experience（ShadowPlay）の「インスタントリプレイ」のように、バックグラウンドで常にデスクトップ画面を録画し、ホットキーを押した瞬間に直近数分間の動画を保存できる軽量なWindows向けアプリケーションです。
